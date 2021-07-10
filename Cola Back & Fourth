@@ -1,0 +1,23 @@
+
+a = "COLA"
+b= 1
+c= ""
+for x in range(4):
+    for y in range(b):
+        c=c+a[y]
+    b=b+1
+print(c)
+
+c= ""
+b=1
+for x in (range(4)):
+    print("new")
+    for y in (range(b)):
+        if(y==0):
+            c=c+a[-1]
+        elif(y==b):
+            c=c+a[0]
+        else:
+            c=c+a[-(y+1)]
+    b=b+1
+print(c)
